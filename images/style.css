@@ -1,0 +1,443 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*...................................................starting of  navbar1........................................................ */
+
+.header{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+
+}
+.navbar1{
+    width: 100%;
+ margin-top: 0px;
+    background-color:#f7f8f8;
+    display: flex;
+    justify-content: center;
+ justify-content: space-between;
+ align-items: center;
+
+    
+
+}
+.navbar1 > ul{
+    display: flex;
+justify-content: space-between;
+  width: 100%;
+  height: 100%;
+   align-items: center;
+
+}
+.navbar1 li {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+display: flex;
+ /* padding-left: 4px 22px ; */
+ ;
+
+
+
+}
+.a{
+    padding: 10px 20px;
+    border: 2px solid #002f34;
+    display: flex;
+    justify-content: space-between;
+    width: 18%;
+    height: 19px;
+    background-color: white;
+color:#002f34;
+
+}
+li span{
+    color: gray;
+}
+.login a{
+    color: #002f34; 
+    text-decoration: none;
+    font-size: 20px bold;
+    border-bottom: 2px solid black;
+
+}
+.login a:hover{
+    color: cyan;
+}
+
+.search1{
+    width: 60%;
+  
+}
+
+.search{
+    border: 2px solid #002f34;
+    padding: 10px 20px;
+    width: 80%;
+    height: 19px;
+
+ 
+}
+.btn{
+    padding: 10px 20px;
+    border: 2px solid #002f34;
+    background-color:#002f34;
+    color:white
+    
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+/*.......................................... starting of navbar2................................................ */
+.nav2 ul{
+    margin: 0px;
+    padding: 3px;
+    display: flex;
+    width: 100%;
+}
+.nav2  a{
+    text-decoration: none;
+     color: rgb(71, 62, 62);
+     font-weight: 100; 
+ 
+
+}
+.nav2 li{
+    list-style: none;
+  padding: 3px 10px;
+}
+.nav2 li a:hover{
+    color:black;
+}
+/* ............................................starting of adds............................................... */
+/* 
+.adds{
+    margin-top: 10px;
+    background-color: gainsboro;
+  
+    width: 50px;
+    height: 13px;
+
+}
+.adds:hover+.hide{
+    display: block;
+}
+.hide{
+    display:none;
+} */
+.add {
+    width: 100%;
+    height: 120px;
+    background: url("images/adds.PNG") no-repeat;
+    margin: 7px 150px;
+    
+}
+.add:hover {
+    background: url("images/adds1.PNG") no-repeat;
+    cursor: pointer;
+}
+.add2 {
+    width: 100%;
+    height: 245px;
+    background: url("images/add2.PNG") no-repeat;
+    margin: 7px 160px;
+    
+}
+.add2:hover {
+    background: url("images/adds2.PNG") no-repeat;
+    cursor: pointer;
+}
+
+
+/* ...................................................starting of cards............................................... */
+.main-container{
+    width: 100%;
+    display: flex ;
+    flex-wrap: wrap;
+    background-color:gainsboro;
+    justify-content: space-around;
+  
+    
+}
+.main{
+   
+    border: 1px solid;
+  /* padding: 10px 20px; */
+    width: 260px;
+    position: relative;
+    margin: 5px;
+    background-color: white;
+
+}
+.imgcontainer{
+    width: 90%;
+    display: flex;
+    justify-content:center ;
+  
+    padding: 10px 10px;
+
+}
+    .card2{
+        width: 100%;
+        padding: 10px;
+
+    }
+.card2 h2{
+    margin: 0px;
+}
+.p{
+    color:grey;
+    margin: 0px;
+}
+.logo{
+    width: 90%;
+    top: 0px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    padding: 5px;
+ 
+}
+.feature{
+    background-color: rgb(230, 209, 92);
+}
+.heart{
+    color: red;
+}
+.card2{
+    border-left: 4px solid rgb(230, 209, 92);
+
+}
+/*.................................................  cards................................................................................... */
+.components {
+    /* border: 2px solid black; */
+    margin: 193px auto 0px auto;
+    width: 80%;
+    /* height: 600px; */
+}
+
+.box1{
+    /* margin-top: 0px; */
+    background-color: rgb(235, 238, 239);
+    border-radius: 10px;
+   
+}
+
+.box1Heading{
+    margin-left: 30px;
+    text-align: start;
+    display: inline;
+    font-weight: normal; 
+}
+
+.box1Anchor{
+    float: right;
+    margin: 11px 39px 0px 0px;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+.borderLeft{
+    border-left: 5px solid rgb(255, 206, 50);
+    padding-left: 20px;
+}
+  .gallery h3 {
+       text-align: left;
+       font-size: 20px;
+       margin: 0;
+       padding-top: 10px;
+   }
+
+   .gallery {
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+       margin: 15px 0;
+       padding-bottom: 20px;
+   }
+
+   .content {
+       width: 22%;
+       margin: 15px;
+       box-sizing: border-box;
+       float: left;
+       text-align: center;
+       border-radius: 10px;
+       border-top-right-radius: 10px;
+       border-bottom-right-radius: 10px;
+       padding-top: 10px;
+       background-color: white;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   }
+
+   .content:hover {
+       box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+       transform: translate(0px, -8px);
+       transition: .9s;
+   }
+
+ .gallery img {
+       width: 60%;
+       height: 200px;
+       text-align: center;
+       margin: 0 auto;
+       display: block;
+   }
+
+ .gallery  p {
+       text-align: left;
+       color: rgb(134, 143, 140);
+       font-size: 14px;
+       white-space: nowrap; 
+        overflow: hidden; 
+      text-overflow: clip; 
+       margin-top: 0px;
+   }
+   
+   .first{
+       font-size: 11px !important;
+       text-transform: uppercase;
+       text-align: left  !important;
+       display: inline-block;
+       float: left;
+   }
+   .last{
+       font-size: 11px !important;
+       text-align-last: right;
+       padding-right: 15px;
+   }
+
+  .gallery h6 {
+       font-size: 26px;
+       text-align: left;
+       color: #222f3e;
+       margin: 0;
+   }
+
+.figure.tag {
+    position: relative; 
+    margin-left: 20px;
+}
+
+.figure.tag::before {
+    position: absolute;
+    display: block;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    font-weight: normal;
+}
+
+.figure.tag-featured::before {
+    content: "Featured";
+    background: orange;
+}
+
+
+
+/* ........................................................starting of footer................................................................. */
+
+    
+.beforeFooter{
+    background-color: rgb(247, 248, 249);
+    border-bottom: 3px solid rgb(216, 222, 224);
+}
+.slogan{
+    color:  #002f34;
+    font-size: 16px ;
+    font-weight: bold;
+}
+.rightBorder{
+    all: unset;
+    border-right: 2px solid rgb(216, 222, 224);
+    display: inline-block;
+    vertical-align: top;
+    margin: 23px 0px 0px 56px;
+    padding-right: 60px;
+}
+
+.footerImg1{
+    margin-left: 25px;
+}
+
+.innerLeft{
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px 0px 0px 30px;
+}
+
+.innerLeft h5{
+   margin-bottom: 8px;
+}
+footer{
+    background-color: whitesmoke;
+}
+footer ul{
+ display: inline-block;
+ vertical-align: top;
+ margin-left: 60px;
+}
+strong{
+ color: black;
+ font-size: 14px;
+}
+footer li{
+    font-size: 12px;
+    line-height: 28px;
+    color: rgb(109, 102, 102);
+ list-style-type: none;  
+}
+
+.footerPart1{
+  display: inline-block;
+  margin-left: -25px;
+}
+.footerPart1 ul a{
+    text-decoration: none;
+}
+.footerPart1 ul a li:hover{
+    color:black;
+}
+
+.footerPart2{
+  
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 70px;
+}
+
+.logos img
+{
+  margin-bottom: 14px;
+  width: 30px;
+
+}
+.footerend{
+    background-color:  #002f34;;
+}
+ p{
+    margin-bottom: 0px;
+    padding: 14px;
+    color:white;
+    font-size: small;
+
+}
+ p a{
+    text-decoration: none;
+    color:white;
+   
+}
+.footer a{
+
+    text-decoration: none;
+    color:white;
+    justify-content: space-evenly;
+}
+.space{
+    float: right;
+}
+
